@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Montserrat:wght@200;400&family=Oswald&display=swap');
 
 /*Asterisk wildcard selector to reset browser settings*/
 * {
@@ -13,12 +13,16 @@ body {
     display: flex;
     flex-direction: column;
     color: black;
-    font-family: "Monserrat" sans-serif;
+    font-family: "Monserrat", sans-serif;
 }
 
 /*header*/
 header {
     background-color: aqua;
+}
+h1 {
+    font-family: "Bodoni", sans-serif;
+    padding-left: 15px;
 }
 
 /*main*/
