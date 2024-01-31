@@ -107,9 +107,32 @@ main {
     text-transform: capitalize;
     line-height: 3rem;
 }
-h2 {
+#cover-text> h2 {
     color: white;
 }
+/*Oppetider*/
+#oppetider{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    background-color: #003050;
+    width: fit-content;
+    align-content: space-around;
+    -ms-flex-align: spaced;
+    height: 4rem;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    gap:20%;
+    
+}
+#oppetider>div>h2, p {
+    color: white;
+
+
+}
+
 /* Footer */
 footer {
     background-color: #003050;
