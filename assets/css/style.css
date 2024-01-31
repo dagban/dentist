@@ -24,12 +24,14 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px gray;
+    
 }
 
-h1 {
+header a {
     font-family: "Bodoni", sans-serif;
     text-decoration: none;
-   
+    color: #252525;
+    letter-spacing: 2px;
 }
 
 /*main*/
