@@ -118,7 +118,7 @@ main {
     flex: 1 1 auto;
     background-color: #003050;
     width: fit-content;
-    align-content: space-around;
+    justify-content: space-evenly;
     -ms-flex-align: spaced;
     height: 4rem;
     text-align: center;
