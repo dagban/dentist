@@ -89,13 +89,16 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+   
 }
 main {
-    background-color: white;
+    background-color:white;
+    height: 100%;
     /*Make main content larger to push footer down*/
     flex: 1;
-    margin-bottom: 5rem;
-    position: relative;
+     position: relative;
+     
+    
 
 }
 
