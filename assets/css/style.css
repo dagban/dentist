@@ -89,12 +89,13 @@ main {
     margin-top: 37px;
 }
 
-#hero{
+#hero {
     width: 100%;
     height: 600px;
     background: url("../photos/hero.png") no-repeat center center/cover;
     position: relative;
 }
+
 #cover-text {
     background-color: rgba(0, 48, 80, 0.79);
     font-size: 120%;
@@ -107,13 +108,14 @@ main {
     text-transform: capitalize;
     line-height: 3rem;
 }
-#cover-text> h2 {
+
+#cover-text>h2 {
     color: white;
 }
 
 /*Oppetider*/
 
-#oppetider{
+#oppetider {
     display: flex-box;
     flex-direction: column;
     flex-wrap: wrap;
@@ -123,10 +125,11 @@ main {
     height: max-content;
     text-align: center;
     padding: 15px;
-    width: 100%;       
+    width: 100%;
 }
 
-#oppetider>div>h2, p {
+#oppetider>div>h2,
+p {
     color: white;
     padding-top: 15px;
 
@@ -134,13 +137,14 @@ main {
 
 /*Behandlingar*/
 
-#container-behandlingar{
-    height:100%;
-    width:100%;
+#container-behandlingar {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .behandlingar {
     display: flex;
     flex-direction: row;
@@ -151,23 +155,28 @@ main {
     background-color: white;
     height: 250px;
     justify-content: space-between;
-    }
-.behandlingar p{
+}
+
+.behandlingar p {
     color: #003050;
 }
+
 /*Contact form*/
 .column {
     float: left;
     width: 100%;
-  }
-  #contact-data{
-    padding:15px;
+}
+
+#contact-data {
+    padding: 15px;
 
 }
-  .column p{
+
+.column p {
     color: #003050;
-  }
-#contact-page{
+}
+
+#contact-page {
     display: flexbox;
     width: 100%;
     background-color: rgba(0, 48, 80, 0.1);
@@ -177,26 +186,35 @@ form {
     padding: 15px;
     width: 20rem;
 }
-input{
+
+input {
     width: 15rem;
     height: 2rem;
 }
+
 #submit {
-        background-color: red; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        width: 15rem;
-      }
-#submit:hover{
+    background-color: red;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 15rem;
+}
+
+#submit:hover {
     background-color: rgba(255, 0, 0, 0.486);
 }
-#submit::after{
+
+#submit::after {
     background-color: rgba(255, 0, 0, 0.017);
+}
+
+#maps {
+    padding: 15px;
 }
 
 /* Footer */
@@ -219,48 +237,50 @@ footer {
     }
 }
 
- /*Media query for tablets and screens larger than 768px*/
+/*Media query for tablets and screens larger than 768px*/
 
-    @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
 
-        /*Header*/
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1 rem;
-            
-        }
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1 rem;
 
-        #menu {
-            display: flex;
-        }
-
-        #menu>li {
-            padding-left: 1rem;
-            padding-top: 1rem;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
-        #cover-text{
-            width: 400px;
-            right: 50px;
-            text-align: right;
-            padding-right: 10px;
-        }
-        #oppetider{
-            display: flex;
-            flex-direction: row;
-        }     
-    
     }
-    /* Media query - makes the columns stack on top of each other instead of next to each other on smaller screens*/
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #cover-text {
+        width: 400px;
+        right: 50px;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    #oppetider {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+/* Media query - makes the columns stack on top of each other instead of next to each other on smaller screens*/
 @media screen and (min-width: 768px) {
     .column {
-      width: 50%;
+        width: 50%;
     }
-  }
-
+}
