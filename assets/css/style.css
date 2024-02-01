@@ -155,7 +155,45 @@ main {
 .behandlingar p{
     color: #003050;
 }
-
+/*Contact form*/
+.column {
+    float: left;
+    width: 100%;
+  }
+#contact-page{
+    display: flexbox;
+    width: 100%;
+    background-color: rgba(0, 48, 80, 0.1);
+}
+form {
+    padding: 15px;
+    width: 20rem;
+}
+input{
+    width: 15rem;
+    height: 2rem;
+}
+#submit {
+        background-color: red; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 15rem;
+      }
+#submit:hover{
+    background-color: rgba(255, 0, 0, 0.486);
+}
+#submit::after{
+    background-color: rgba(255, 0, 0, 0.017);
+}
+#contact-data{
+    position: relative;
+    width: 20rem;
+}
 /* Footer */
 footer {
     background-color: #003050;
@@ -214,4 +252,10 @@ footer {
         }     
     
     }
+    /* Media query - makes the columns stack on top of each other instead of next to each other on smaller screens*/
+@media screen and (min-width: 768px) {
+    .column {
+      width: 50%;
+    }
+  }
 

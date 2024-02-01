@@ -49,35 +49,50 @@
       </div>
     </section>
 
-    <section id="oppetider">
-      <div>
-        <h2><i class="fa fa-clock-o" aria-hidden="true"></i> Mondag-Lördag</h2>
-        <p>08:00-20:00</p>
-      </div>
-      <div>
-        <h2><i class="fa fa-phone" aria-hidden="true"></i> 0709-388-288</h2>
-        <p>kontakta oss</p>
-      </div>
-      <div>
-        <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Karlskrona</h2>
-        <p>Hantverkaregatan 37</p>
-      </div>
+    <section id="contact-page">
+      <section id="oppetider">
+        <div>
+          <h2><i class="fa fa-clock-o" aria-hidden="true"></i> Mondag-Lördag</h2>
+          <p>08:00-20:00</p>
+        </div>
+        <div>
+          <h2><i class="fa fa-phone" aria-hidden="true"></i> 0709-388-288</h2>
+          <p>kontakta oss</p>
+        </div>
+        <div>
+          <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Karlskrona</h2>
+          <p>Hantverkaregatan 37</p>
+        </div>
+      </section>
+
+      <!--Contact form-->
+      <section class="column">
+        <h1>Kontakt</h1>
+        <h2>KARLSKRONA TANDVÅRDSKLINIK</h2>
+        <p>Handverkaregatan 37</p><br>
+        <p>37135 Karlskrona</p>
+      </section>
+      <section class="column">
+        <form action="https.//www.sendmydatathere.com" method="post">
+          <label for="name">Name</label>
+          <br>
+          <input type="text" id="name" required>
+          <br>
+          <label for="phone">Phone</label><br>
+          <input type="text" id="phone" required>
+          <br>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" required>
+          <br>
+          <label for="textarea">Skriv till oss</label>
+          <br>
+          <textarea name="textarea" id="textarea" rows="10" cols="30"></textarea>
+          <br>
+          <button type="submit" id="submit">Skicka</button>
+        </form>
+      </section>
     </section>
 
-    <section>
-        <form action="https.//www.sendmydatathere.com" method="post">
-          <label for="name" >Name</label>
-          <input type="text" id="name" required>
-          <label for="phone">Phone</label>
-            <input type="text" id="phone" required>
-            <label for="email" >Email</label>
-            <input type="email" id="email" required>
-            <label for="textarea" >Write your message here</label>
-            <textarea name="textarea" id="textarea" rows="5" cols="5"></textarea>
-            <input type="button" id="submit" content="submit">
-        </form>
-    </section>
-      
   </main>
 
   <!-- Footer -->
