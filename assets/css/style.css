@@ -9,7 +9,6 @@
 
 p {
     color: #003050;
-    line-height: 1.5;
 }
 /*Several styles*/
 body {
@@ -84,19 +83,12 @@ nav {
     font-size: 2rem;
 
 }
+
 /*main*/
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 main {
     background-color: white;
     /*Make main content larger to push footer down*/
-    flex: 1;
-    margin-bottom: 4rem;
-    position: relative;
-
+    flex: 1 0 auto;
 }
 
 #hero {
@@ -153,8 +145,6 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 70px;
-    
-
 }
 
 .behandlingar {
@@ -167,68 +157,20 @@ main {
     background-color: white;
     height: 250px;
     justify-content: space-around;
-
 }
 .behandlingar div {
         flex: 0 0 250px;
-}
-
-        /*Behandlingar Page*/
-.description {
+      }
+.description{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    flex-wrap: wrap;
     padding: 15px;
-    align-items: center; /* Center the content vertically */
-    justify-content: space-around;
-
 }
-
-.d1 {
-    display: flex;
-    text-align: left;
-    position: relative;
-    width: 90%%;
-    }
-.d1>h3{
-    text-align: left;
-    position: fixed;
-    
-   
+.description div{
+   padding-top: 20px;
 }
-.d1>p {
-    margin-top: 2rem;
-    margin-right:10%
-}
-.d2>p {
-    margin-top: 2rem;
-    }
-.d2 {
-    display: flex;
-    text-align: right;
-    position: relative;
-    width: 100%;
-    padding-left: 20%;
-}
-.d2>h3{
-    text-align: right;
-    position: relative;
-    padding-right: 1rem;
-}
-
-.description>div {
-    padding: 30px;
-    flex: 1; /* Allow the child divs to take equal space */
-}
-
-.description-part {
-    float: left;
-    flex-basis: 100%;
-    flex: 1; /* Allow the child divs to take equal space */
-}
-.description-img1 {
-    width: inherit;
+.description h2, p{
+    color: #003050;
 }
 
 /*Contact form*/
@@ -292,17 +234,16 @@ input {
 /* Footer */
 footer {
     background-color: #003050;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: 50px;
     z-index: 100;
-    margin-top: 4rem;
       }
 
     #social-networks {
         text-align: center;
-        padding: 10px;
+        padding: 20px;
         display: flex;
         justify-content: space-evenly;
         list-style-type: none;
@@ -356,62 +297,6 @@ footer {
     }
 
 }
-
-        /*Media query for Behandlingar Page*/
-        @media screen and (min-width: 768px)
-    .description {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        flex-wrap: wrap;
-        padding: 15px;
-        align-items: center; /* Center the content vertically */
-        justify-content: space-around;
-    
-    }
-    
-    .d1 {
-        display: flex;
-        text-align: left;
-        position: relative;
-        width: 90%%;
-        }
-    .d1>h3{
-        text-align: left;
-        position: absolute;
-        
-       
-    }
-    .d1>p {
-        margin-top: 2rem;
-        margin-right:10%
-    }
-    .d2>p {
-        margin-top: 2rem;
-        }
-    .d2 {
-        display: flex;
-        text-align: right;
-        position: relative;
-        width: 100%;
-        padding-left: 20%;
-    }
-    .d2>h3{
-        text-align: right;
-        position: relative;
-        padding-right: 1rem;
-    }
-    
-    .description>div {
-        padding: 30px;
-        flex: 1; /* Allow the child divs to take equal space */
-    }
-    
-    .description-part {
-        float: left;
-        flex-basis: 100%;
-        flex: 1; /* Allow the child divs to take equal space */
-    }
 
 /* Media query - makes the columns stack on top of each other instead of next to each other on smaller screens*/
 @media screen and (min-width: 768px) {
