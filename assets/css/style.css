@@ -110,7 +110,9 @@ main {
 #cover-text> h2 {
     color: white;
 }
+
 /*Oppetider*/
+
 #oppetider{
     display: flex-box;
     flex-direction: column;
@@ -121,16 +123,35 @@ main {
     height: max-content;
     text-align: center;
     padding: 15px;
-    width: 100%;
-    
-    
+    width: 100%;       
 }
+
 #oppetider>div>h2, p {
     color: white;
     padding-top: 15px;
 
-
 }
+
+/*Behandlingar*/
+
+#container-behandlingar{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+.behandlingar {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    text-align: center;
+    color: #003050;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    justify-content: space-between;
+    }
+
 
 /* Footer */
 footer {
