@@ -6,7 +6,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+p {
+    color: #003050;
+}
 /*Several styles*/
 body {
     min-height: 100vh;
@@ -128,8 +130,7 @@ main {
     width: 100%;
 }
 
-#oppetider>div>h2,
-p {
+#oppetider>div>h2,p {
     color: white;
     padding-top: 15px;
 
@@ -156,8 +157,15 @@ p {
     height: 250px;
     justify-content: space-between;
 }
-
-.behandlingar p {
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.description div{
+   padding-top: 20px;
+}
+.description h2, p{
     color: #003050;
 }
 
