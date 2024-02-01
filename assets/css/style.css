@@ -160,11 +160,19 @@ main {
     float: left;
     width: 100%;
   }
+  #contact-data{
+    padding:15px;
+
+}
+  .column p{
+    color: #003050;
+  }
 #contact-page{
     display: flexbox;
     width: 100%;
     background-color: rgba(0, 48, 80, 0.1);
 }
+
 form {
     padding: 15px;
     width: 20rem;
@@ -190,10 +198,7 @@ input{
 #submit::after{
     background-color: rgba(255, 0, 0, 0.017);
 }
-#contact-data{
-    position: relative;
-    width: 20rem;
-}
+
 /* Footer */
 footer {
     background-color: #003050;
