@@ -152,7 +152,7 @@ p {
 
 }
 
-/*Behandlingar*/
+/*Home page*/
 
 #container-behandlingar {
     height: 100%;
@@ -181,40 +181,52 @@ p {
     margin-bottom: 3rem;
 }
 
+/* Behandlingar page*/
+
 .description {
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     flex-wrap: wrap;
     padding: 15px;
-    align-items: center;
+    align-items:center;
     /* Center the content vertically */
 }
 
 .description>div {
-    padding: 30px;
+   width: 90%;
+   margin-top: 15px;
+    background-color: aqua;
     flex: 1;
     /* Allow the child divs to take equal space */
 }
-
-.description-part {
-    float: left;
-    flex: 1;
-    /* Allow the child divs to take equal space */
-}
-
-.description-img {
+.description-img1{
     float: right;
-    flex: 1;
-    /* Allow the child divs to take equal space */
-    width: inherit;
+    padding-right:5%;
+    
 }
-
+.description-img2{
+    float: left;
+    padding-left:5%;
+    
+}
 .description h2,
 p {
     color: #003050;
+    padding-right:5%;
 }
-
-/*Contact form*/
+.picture-blocks1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left:5%;
+}
+.picture-blocks2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:5%;
+}
+/*Contact Page*/
 .column {
     float: left;
     width: 100%;
