@@ -195,7 +195,7 @@ p {
 .description>div {
    width: 90%;
    margin-top: 15px;
-   background-color: aqua;
+   background-color: rgb(255, 255, 255);
     flex: 1;
     /* Allow the child divs to take equal space */
 }
@@ -214,6 +214,13 @@ p {
 p {
     color: #003050;
     padding-right:5%;
+}
+.header-r{
+    text-align: right;
+    padding-right: 5%;
+}
+.header-l{
+    padding-left: 5%;
 }
 .picture-blocks1{
   display: flex;
