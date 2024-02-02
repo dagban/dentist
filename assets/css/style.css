@@ -315,6 +315,36 @@ footer {
     padding: 5%;
     color: white;
 }
+
+#priser-content{
+    padding: 5%;
+}
+/*Table styling*/
+table {
+    width: 80%;
+    margin: 10%;
+    border: 2px solid #003050;
+    border-collapse: collapse;
+}
+caption{
+    font-size: large;
+    margin-bottom: 3%;
+}
+th{
+    text-align: left;
+    margin-top: 10px;
+    border: 2px solid #003050;
+    line-height: 200%;
+    padding-left:5%;
+}
+tr{
+    line-height: 150%;
+   }
+td{
+    padding-left: 5%;
+    border: 1px solid #003050;
+}
+
 /*Media query for screen sizes smaller than 768px*/
 
 @media screen and (max-width:768px){
@@ -345,6 +375,8 @@ footer {
     flex: 1;
 }
 }
+
+
 /*Media query for tablets and screens larger than 768px*/
 
 @media screen and (min-width:768px) {
