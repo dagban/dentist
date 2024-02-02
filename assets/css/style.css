@@ -48,7 +48,7 @@ header a {
     letter-spacing: 2px;
     list-style-type: none;
     color: white;
-
+    display: block
 }
 
 #menu>li {
@@ -56,7 +56,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #003050;
+    border-bottom: 2px solid #ffffff;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -64,20 +64,21 @@ nav {
     position: absolute;
     background-color: #003050;
     width: 100%;
-    left: 0;
+    left:0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #003050;
-    display: none;
+    display:none;
+    flex-direction:column;
     top: 100%;
 }
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display: block;
+    display:block;
 }
 
 #nav-toggle {
-    display: none;
+    display:none;
 }
 
 .nav-toggle-label {
@@ -305,15 +306,17 @@ footer {
     }
 
     #menu {
-        display: flex;
-    }
+        display:flex;
+          }
 
     #menu>li {
         padding-left: 1rem;
         padding-top: 1rem;
     }
-
-    .nav-toggle-label {
+    #menu a:hover{
+        border-bottom: 2px solid #ffffff;}
+    
+        .nav-toggle-label {
         display: none;
     }
 
