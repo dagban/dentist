@@ -111,6 +111,7 @@ main {
     height: 600px;
     background: url("../photos/hero.png") no-repeat center center/cover;
     position: relative;
+   
 }
 
 #cover-text {
@@ -202,15 +203,18 @@ p {
 .description-img1{
     float: right;
     padding-right:5%;
-    width:40%
-    
+    width:40%;
+    filter:drop-shadow(20px 20px 10px) ;
+    border-left: 2px solid #003050;    
 }
 .description-img2{
     float: left;
     padding-left:5%;
     margin-right: 5%;
     width: 40%;
-    
+    filter:drop-shadow(-20px 20px 10px);
+    border-right: 2px solid #003050;
+
 }
 .description h2,
 p {
@@ -322,7 +326,9 @@ footer {
 /*Table styling*/
 table {
     width: 80%;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
     border: 2px solid #003050;
     border-collapse: collapse;
 }
