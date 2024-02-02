@@ -195,7 +195,7 @@ p {
 .description>div {
    width: 90%;
    margin-top: 15px;
-    background-color: aqua;
+   background-color: aqua;
     flex: 1;
     /* Allow the child divs to take equal space */
 }
@@ -207,6 +207,7 @@ p {
 .description-img2{
     float: left;
     padding-left:5%;
+    
     
 }
 .description h2,
@@ -224,7 +225,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right:5%;
+    padding-right:0%;
+    text-align: right;
 }
 /*Contact Page*/
 .column {
