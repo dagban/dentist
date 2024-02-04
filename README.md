@@ -1,7 +1,5 @@
-Love Running
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+Karlskrona Tandvardsklinik
+Karlskrona Tandvardsklinik is a site that hopes to help dentist clinic to inform patients about their offer. The site will be targeted toward patients who are looking for a dentist. Site will be useful for patients that want to know which procedures clinic offers and when and how to contact them.
 
 Responsice Mockup
 
@@ -11,13 +9,13 @@ In this section, you should go over the different parts of your project, and des
 Existing Features
 Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page, About page, Behandlingar page, Priser page and Kontakt page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 Nav Bar
 
 The landing page image
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+The landing includes a photograph with text overlay to allow the user to see which location this site would be applicable to.
 This section introduces the user to Love Running with an eye catching animation to grab their attention
 Landing Page
 
