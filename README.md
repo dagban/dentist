@@ -1,111 +1,87 @@
 Karlskrona Tandvardsklinik
 Karlskrona Tandvardsklinik is a site that hopes to help dentist clinic to inform patients about their offer. The site will be targeted toward patients who are looking for a dentist. Site will be useful for patients that want to know which procedures clinic offers and when and how to contact them.
+Site is in swedish because clinic is located in Sweden and their customers are mostly swedish speaking population, but there is also information that personel speaks other languages.
 
-Responsice Mockup
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+![image](https://github.com/dagban/dentist/assets/157297543/0d9f1b86-a19a-4851-924a-44c1e9254ffb)
 
 Existing Features
 Navigation Bar
 
 Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page, About page, Behandlingar page, Priser page and Kontakt page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+![image](https://github.com/dagban/dentist/assets/157297543/bb0837eb-2e3d-4886-bc7a-566bedefb8ba)
 
 The landing page image
 
-The landing includes a photograph with text overlay to allow the user to see which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
-Landing Page
+The landing includes a photograph of beautiful white teeth with text overlay to allow the user to see which languages clinic's personel is speaking. This is unique feature of this clinic, and on demand in this particular city, so it is shown on text overlay on all pages.
+![image](https://github.com/dagban/dentist/assets/157297543/aeaffd31-dfb8-4abc-90b3-d15736533c1b)
 
-Club Ethos Section
+Offer Section
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
+Offer section will allow the user to see the which procedures clinics offers without too much details.
 
-Meetup Times section
-
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
+![image](https://github.com/dagban/dentist/assets/157297543/0a47c212-c3ed-4908-91da-e6d21f359f9c)
 
 The Footer
 
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+The footer section includes links to the facebook site for the clinic. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
+![image](https://github.com/dagban/dentist/assets/157297543/5b6110d5-2e29-49b8-b1e8-e21f3e4cc541)
 
-Gallery
 
-The gallery will provide the user with supporting images to see what the meet ups look like.
-This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-Gallery
+About page
 
-The Sign Up Page
+The about page will provide the user with supporting images to see what personel and clinic look like.
+Section provides also photo of newspeper interviev with clinic's founders that supports credibility in the area of dental fobia treatement that clinic specializes in.
+Furthermore this page contains a few short animated gifs showing clinic's personel, which gives more friendly feeling to the user.
+This page is valuable to the user as they get to know personel better and will be able to feel more comfortable when they come to the clinic and see familiar look.
+![image](https://github.com/dagban/dentist/assets/157297543/26b5c9f6-30cd-49b2-9865-c06765f529cb)
 
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-Sign Up
+The Behandlingar page
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+This page gives the user better understanding of offered procedures providing detailed description of ech one listed previously in the Offer section on the Home page.
+Each description has relevant picture for better visual experience.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+The Priser page
 
-Features Left to Implement
-Another feature idea
+This page provides information about prices. It contains table with listed procedures and their prices to allow user to be prepared for how much money will their treatement cost.
+
+![image](https://github.com/dagban/dentist/assets/157297543/5a83d9a8-d431-454d-8bc5-242688ba0551)
+
+Kontakt page
+
+This page will allow the user to get detailed clinic's address, email address and phone number, as well as submit a question directly through the contact form. The user will be asked to submit their name, phone number and email address and text message.
+This page contains also google map with clinic location. This allows the user to better understand clinic's location.
+![image](https://github.com/dagban/dentist/assets/157297543/6dfbfd14-2e6f-490f-af1b-eeff192e781e)
+![image](https://github.com/dagban/dentist/assets/157297543/afc39293-18ab-4b23-ba21-154f5e23dde9)
+
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Validator Testing
 HTML
 No errors were returned when passing through the official W3C validator
 CSS
 No errors were found when passing through the official (Jigsaw) validator
+
 Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+There was no unfixed bugs left.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://dagban.github.io/dentist/index.html
 
 Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
 Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
+The text for all pages was provided by clinic.
+Instructions on how to implement form validation on the Kontakt page page was taken from Code Institute lessons.
+The icons in the footer were taken from Font Awesome.
+
 Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-
-Other General Project Advice
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through this article by Chris Beams on How to Write a Git Commit Message
-
-Make sure to keep the messages in the imperative mood
-When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-
-For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-
-Writing Your Best Code
-HTML & CSS Coding Best Practices
-Google HTML/CSS Style Guide
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+The photo used on the hero section is from Creative Fabrica paid subscription.
+The images used for the Behandlingar page were designed in Canva using paid subscription account.
